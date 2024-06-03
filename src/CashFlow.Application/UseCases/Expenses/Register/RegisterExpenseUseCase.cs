@@ -1,4 +1,5 @@
-﻿using CashFlow.Communication.Requests;
+﻿using CashFlow.Communication.Enums;
+using CashFlow.Communication.Requests;
 using CashFlow.Communication.Responses;
 
 namespace CashFlow.Application.UseCases.Expenses.Register;
@@ -28,6 +29,12 @@ public class RegisterExpenseUseCase
         if (invalidDate > 0)
         {
             throw new ArgumentException("Date is invalid");
+        }
+
+        var paymentTypeIsValid = Enum.IsDefined(typeof(PaymentType), request.PaymentType);
+        if (paymentTypeIsValid == false)
+        {
+            throw new ArgumentException("Payment Type is not valid!");
         }
     }
 }
