@@ -47,7 +47,7 @@ Para testar localmente, siga esses passos:
 
 1. Clone o repositório:
   ```sh
-  git clone https://github.com/IgorCastilhos/FinanceApp.git
+  git clone https://github.com/IgorCastilhos/CashFlow
   ```
 2. Preencha as informações no arquivo `appsettings.Development.json`.
 3. Execute a API.
