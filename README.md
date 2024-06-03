@@ -56,7 +56,7 @@ Para testar localmente, siga esses passos:
 [dot-net-sdk]: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
 
 <!-- Images -->
-[hero-image]: Images/financeApp.png
+[hero-image]: images/financeApp.png
 <!-- Badges -->
 [badge-dot-net]: https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=fff&style=for-the-badge
 [badge-windows]: https://img.shields.io/badge/Windows-0078D4?logo=windows&logoColor=fff&style=for-the-badge
