@@ -9,14 +9,14 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.5"/>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\CashFlow.Application\CashFlow.Application.csproj" />
       <ProjectReference Include="..\CashFlow.Communication\CashFlow.Communication.csproj" />
       <ProjectReference Include="..\CashFlow.Exceptions\CashFlow.Exceptions.csproj" />
-      <ProjectReference Include="..\CashFlow.Infraestructure\CashFlow.Infraestructure.csproj" />
+      <ProjectReference Include="..\CashFlow.Infrastructure\CashFlow.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
