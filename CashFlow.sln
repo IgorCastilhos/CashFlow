@@ -16,6 +16,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Infrastructure", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Exceptions", "src\CashFlow.Exceptions\CashFlow.Exceptions.csproj", "{DBC5140B-F73B-461E-B87A-D0336CD14F6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validators.Tests", "tests\Validators.Tests\Validators.Tests.csproj", "{9ED12BC0-B0ED-46EE-86CC-3DCE112C5CC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonTestUtilities", "tests\CommonTestUtilities\CommonTestUtilities.csproj", "{5D1F4485-EDCA-460A-A2F2-1EAB7991350A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +32,8 @@ Global
 		{B77D1A7C-00E3-4874-8774-674C07C8A45D} = {48B11EE8-AE57-4B86-9462-8AFAAE403941}
 		{B4C7C4D2-8D99-47DE-AA98-204DDCF3CC4F} = {48B11EE8-AE57-4B86-9462-8AFAAE403941}
 		{DBC5140B-F73B-461E-B87A-D0336CD14F6B} = {48B11EE8-AE57-4B86-9462-8AFAAE403941}
+		{9ED12BC0-B0ED-46EE-86CC-3DCE112C5CC0} = {7A89610D-FC06-4CDE-9999-CDAF064BC9A6}
+		{5D1F4485-EDCA-460A-A2F2-1EAB7991350A} = {7A89610D-FC06-4CDE-9999-CDAF064BC9A6}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{98384FBD-81D9-440B-A35D-001CAC96D0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -54,5 +60,13 @@ Global
 		{DBC5140B-F73B-461E-B87A-D0336CD14F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBC5140B-F73B-461E-B87A-D0336CD14F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBC5140B-F73B-461E-B87A-D0336CD14F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED12BC0-B0ED-46EE-86CC-3DCE112C5CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED12BC0-B0ED-46EE-86CC-3DCE112C5CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED12BC0-B0ED-46EE-86CC-3DCE112C5CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED12BC0-B0ED-46EE-86CC-3DCE112C5CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D1F4485-EDCA-460A-A2F2-1EAB7991350A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D1F4485-EDCA-460A-A2F2-1EAB7991350A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D1F4485-EDCA-460A-A2F2-1EAB7991350A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D1F4485-EDCA-460A-A2F2-1EAB7991350A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
