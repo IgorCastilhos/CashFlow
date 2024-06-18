@@ -15,6 +15,7 @@
 
     <ItemGroup>
       <PackageReference Include="FluentValidation" Version="11.9.1" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0-preview.5.24306.7" />
     </ItemGroup>
 
 </Project>

@@ -1,9 +1,9 @@
 ﻿using CashFlow.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace CashFlow.Infraestructure.DataAccess;
+namespace CashFlow.Infrastructure.DataAccess;
 
-public class CashFlowDbContext : DbContext
+internal class CashFlowDbContext : DbContext
 {
     // Expenses is the name of the table in the database
     // Expense is the entity that will be stored in the Expenses table
@@ -12,7 +12,7 @@ public class CashFlowDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        var connectionString = "Server=localhost;Database=cashflowdb;Uid=root;Pwd=!%My995329";
+        var connectionString = "Server=localhost;Database=cashflowdb;Uid=root;Pwd=!%My9953;";
 
         var version = new Version(8, 0, 37);
         var serverVersion = new MySqlServerVersion(version);
@@ -20,5 +20,3 @@ public class CashFlowDbContext : DbContext
         optionsBuilder.UseMySql(connectionString, serverVersion);
     }
 }
-
-// Todo: 52:25
